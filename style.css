@@ -1,13 +1,14 @@
 #container
 {
-	margin: 0 30px;
-	background: #fff;
+	margin: 0 10px;
+	background: #C0C0C0;
 }
 
 #header
 {
-	background: #ccc;
+	background: #FF0000;
 	padding: 20px;
+	color:white;
 }
 
 #header h1 { margin: 0; }
@@ -16,7 +17,7 @@
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #FF0000;
 }
 
 #navigation ul
@@ -36,12 +37,12 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
-	text-decoration: none;
+	color: black;
+	text-decoration: ##FFFFFF;
 	border-right: 1px solid #fff;
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover { background: #FF00FF; }
 
 #edito
 {
@@ -62,13 +63,14 @@
 
 #edito h2
 {
-	color: #000;
+	color: black;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
 
 #news
 {	
+    color:black;
 	float: left;
 	width: 40%;
 	padding: 20px;
@@ -87,8 +89,9 @@
 
 #footer
 {
+    color:white;
 	clear: both;
-	background: #ccc;
+	background: #FF0000;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
