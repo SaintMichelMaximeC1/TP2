@@ -1,12 +1,12 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: #00CCCC;
 }
 
 #header
 {
-	background: #ccc;
+	background: #cccccc;
 	padding: 20px;
 }
 
@@ -16,7 +16,7 @@
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #FFFFFF;
 }
 
 #navigation ul
@@ -28,7 +28,7 @@
 #navigation ul li
 {
 	list-style-type: none;
-	display: inline;
+	display: none;
 }
 
 #navigation li a
@@ -36,12 +36,12 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
-	text-decoration: none;
-	border-right: 1px solid #fff;
+	color: #FFFFFF;
+	text-decoration: underline;
+	border-right: 5px solid #fff;
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover { background: #000000; }
 
 #edito
 {
@@ -89,7 +89,21 @@
 {
 	clear: both;
 	background: #ccc;
-	text-align: right;
+	text-align: center;
 	padding: 20px;
 	height: 1%;
+}
+
+h1
+{
+color: #FFFFFF;
+text-decoration: overline;
+font-size:50px;
+text-transform: lowercase;
+}
+
+p
+{
+color: #FFFFFF;
+font-weight: bold;
 }
