@@ -1,16 +1,28 @@
+body
+{
+background-image: url=("pingouin.jpeg");
+}
+
+
 #container
 {
 	margin: 0 30px;
 	background: #fff;
+	
 }
 
 #header
 {
-	background: #ccc;
-	padding: 20px;
+	background: aqua;
+	padding: 40px;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0;
+color: orange;
+padding-left: 400px;
+text-decoration: underline;
+
+ }
 
 #navigation
 {
@@ -45,6 +57,7 @@
 
 #edito
 {
+    background-image: url("pingouin.jpeg");
 	clear: left;
 	padding: 20px;
 	margin: 20px;
@@ -62,13 +75,21 @@
 
 #edito h2
 {
-	color: #000;
+	color: red;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
 
+#news h2
+{
+color: navy;
+opacity: 80%;
+}
+
 #news
 {	
+    text-align: right;
+    color: green;
 	float: left;
 	width: 40%;
 	padding: 20px;
@@ -88,7 +109,7 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: aqua;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
