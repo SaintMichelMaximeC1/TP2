@@ -1,12 +1,15 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: green;
+	color: orange;
 }
 
 #header
 {
+
 	background: #7080A0;
+
 	padding: 20px;
 }
 
@@ -50,8 +53,10 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
+
 	-webkit-box-shadow: 0px 0px 6px #FF4500;
 	box-shadow: 0px 0px 6px #0000CD;
+
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
